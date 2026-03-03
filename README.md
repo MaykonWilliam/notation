@@ -19,3 +19,36 @@ Yes	35001066	MDIC	Option		Task11254<br>
  <br>
 Yes	35001067	Country Result	Code	10	Task11254 --Code[10]<br>
 <br>
+<br>
+---<br>
+Property	Value<br>
+Field No.	35001707<br>
+Name	ISS Immunity Type<br>
+Caption	<ISS Immunity Type><br>
+CaptionML	<Undefined><br>
+Description	Task11254<br>
+Data Type	Option<br>
+Enabled	<Yes><br>
+InitValue	<Undefined><br>
+FieldClass	<Normal><br>
+OptionString	ENU=" ",1-Assets income or services one another,2-Religious entities and temples,3-Assets income or services,4-Books newspapers periodicals and paper,5-Musical phonograms videophonograms<br>
+OptionCaption	 ,1 - Assets. income or services of one another (CF88 Art. 150 VI a),2 - Religious entities and temples of any faith (CF88 Art. 150 VI b),3 - Assets. income or services (CF88 Art. 150 VI c),4 - Books. newspapers; periodicals and paper intended for their printing (CF88 Art. 150 VI d),5 - Musical phonograms and videophonograms produced in Brazil (CF88 Art. 150 VI e)<br>
+OptionCaptionML	ENU=" ,1 - Assets. income or services of one another (CF88 Art. 150 VI a),2 - Religious entities and temples of any faith (CF88 Art. 150 VI b),3 - Assets. income or services (CF88 Art. 150 VI c),4 - Books. newspapers; periodicals and paper intended for their printing (CF88 Art. 150 VI d),5 - Musical phonograms and videophonograms produced in Brazil (CF88 Art. 150 VI e)"<br>
+BlankNumbers	<DontBlank><br>
+BlankZero	<No><br>
+SignDisplacement	<0><br>
+AutoFormatType	<0><br>
+AutoFormatExpr	<><br>
+CaptionClass	<><br>
+Editable	<Yes><br>
+MinValue	<><br>
+MaxValue	<><br>
+NotBlank	<No><br>
+ValuesAllowed	<><br>
+TableRelation	<Undefined><br>
+ValidateTableRelation	<Yes><br>
+TestTableRelation	<Yes><br>
+AccessByPermission	<Undefined><br>
+ExtendedDatatype	<None><br>
+ObsoleteState	<No><br>
+ObsoleteReason	<br>
