@@ -52,3 +52,21 @@ AccessByPermission	<Undefined><br>
 ExtendedDatatype	<None><br>
 ObsoleteState	<No><br>
 ObsoleteReason	<br>
+
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+    FOR i := 1 TO STRLEN(Descr) DO BEGIN
+
+       letraAtual := Descr[i];
+       IF letraAtual IN [ 'ã', '§','?'] THEN letraAtual := 'a'
+         ELSE IF letraAtual IN ['Ç','ç'] THEN letraAtual := 'c'
+           ELSE IF letraAtual IN ['¨'] THEN letraAtual := 'o';
+       saida[i] := letraAtual;
+     END;
