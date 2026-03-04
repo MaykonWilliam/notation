@@ -70,3 +70,24 @@ ObsoleteReason	<br>
            ELSE IF letraAtual IN ['¨'] THEN letraAtual := 'o';
        saida[i] := letraAtual;
      END;
+
+
+
+<br>
+
+    FOR i := 1 TO STRLEN(Descr) DO BEGIN
+   
+    letraAtual := Descr[i];
+    IF letraAtual IN [ 'ã', '§','?'] THEN letraAtual := 'a'
+      ELSE IF letraAtual IN ['Ç','ç'] THEN letraAtual := 'c'
+        ELSE IF letraAtual IN ['¨'] THEN letraAtual := 'o';
+    saida[i] := letraAtual;
+  END;
+
+
+  Enabled	Field No.	Field Name	Data Type	Length	Description
+Yes	35001758	FinanceBR Environment NFE	Option		Task11238
+1-Production,2-Homologation
+
+Yes	35001759	FinanceBR Environment NFSE	Option		Task11238
+1-Production,2-Homologation
